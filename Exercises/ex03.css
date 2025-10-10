@@ -1,0 +1,41 @@
+.test-div {
+    background: rgb(0, 187, 255);
+    padding: 20px;
+    margin: 20px;
+}
+
+div.test-div h2 {
+    color: rgb(6, 45, 143)
+}
+
+.test-div:hover {
+    background-color: aqua;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    text-decoration: underline;
+}
+
+.test-div {
+    color: blue;
+}
+
+button {
+    background-color: peachpuff;
+}
+
+h2 {
+    color: darkblue;
+}
+
+.my-flex {
+    display: flex;
+}
+
+#mykitten {
+    width: 200px;
+}
