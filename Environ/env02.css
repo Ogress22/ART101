@@ -1,9 +1,32 @@
-p { color: purple; }
-p { border: 1px dashed green } 
-p { background-color: pink; }
-p { padding-top: 20px; }
-p { margin: 50 px; }
-p { width: 300px; }
-p { height: 20px; }
+body, html {
 
-#mykitten {width: 200px;}
+background-size: 100%;
+}
+
+
+
+body{
+
+background-image: url(" beach.png ");
+background-repeat: no-repeat;
+}
+
+body
+    .jack-sparrow {
+  position: absolute;
+  bottom: 30px;      /* adjust vertical position */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;      /* bigger size */
+  max-width: 80%;    /* responsive: won’t exceed screen width */
+  z-index: 10;
+}
+
+.jack-sparrow {
+  position: absolute;
+  bottom: 20px;    /* closer to bottom; increase number to raise him */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;    /* adjust size as needed */
+  z-index: 10;
+}
